@@ -15,7 +15,6 @@ orgs.newOrg('eclipse-emfatic') {
       delete_branch_on_merge: false,
       description: "Emfatic is a textual syntax for EMF Ecore (meta-)models.",
       homepage: "https://eclipse.dev/emfatic",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "eclipse-modeling-framework",
         "model-driven-development",
