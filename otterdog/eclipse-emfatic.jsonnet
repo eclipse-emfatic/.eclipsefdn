@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-emfatic') {
+orgs.newOrg('modeling.emft.emfatic', 'eclipse-emfatic') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
